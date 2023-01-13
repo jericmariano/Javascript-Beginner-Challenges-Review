@@ -1,5 +1,5 @@
-function hoursIntoSeconds(hours) {
-    return hours * 3600
+function calcPerimeter(length, width) {
+    return (length + width) * 2
 }
 
-console.log(hoursIntoSeconds(10))
+console.log(calcPerimeter(2, 9))
