@@ -1,5 +1,5 @@
-function addition(val1, val2) {
-    return val1 + val2
+function hoursIntoSeconds(hours) {
+    return hours * 3600
 }
 
-console.log(addition(3, 5))
+console.log(hoursIntoSeconds(10))
