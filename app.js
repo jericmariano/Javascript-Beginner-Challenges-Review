@@ -1,5 +1,5 @@
-function isOdd(num1) {
-    return num1 % 2 !== 0
+function booleanInteger(num1) {
+    return num1 % 2 === 0 ? 1 : -1 
 }
 
-console.log(isOdd(2))
+console.log(booleanInteger(2))
