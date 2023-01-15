@@ -1,5 +1,5 @@
-function appendFrontend(word) {
-    return word + 'Frontend'
+function lessThanOrEqualToZero(num1) {
+    return num1 <= 0
 }
 
-console.log(appendFrontend('Banana'))
+console.log(lessThanOrEqualToZero(-2))
