@@ -1,5 +1,5 @@
-function calcTriangleArea(base, height) {
-    return (base * height) / 2
+function appendFrontend(word) {
+    return word + 'Frontend'
 }
 
-console.log(calcTriangleArea(10, 10))
+console.log(appendFrontend('Banana'))
